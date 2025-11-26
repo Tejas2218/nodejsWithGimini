@@ -9,7 +9,7 @@ app.get("/", (req,res) =>{
     res.send("hello world! gemini")
 })
 
-app.get("/api/content", async (req,res) => {
+app.post("/api/content", async (req,res) => {
     try{
         const data = req.body.question
         const result = await generate(data)
