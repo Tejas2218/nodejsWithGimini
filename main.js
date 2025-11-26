@@ -17,7 +17,7 @@ app.get("/api/content", async (req,res) => {
             "result": result
         })
     }catch(err){
-        res.send("error " + err)
+        res.send({"error": err})
     }
 })
 
