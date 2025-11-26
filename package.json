@@ -1,0 +1,25 @@
+{
+  "name": "nodejswithgimini",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Tejas2218/nodejsWithGimini#readme",
+  "bugs": {
+    "url": "https://github.com/Tejas2218/nodejsWithGimini/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tejas2218/nodejsWithGimini.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
